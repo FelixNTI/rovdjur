@@ -1,1 +1,34 @@
 /* Denna fil skall innehålla din CSS kod */
+
+#container {
+    display: grid;
+    height: 812px;
+    width: 375px;
+    grid-template-areas:
+    'hd'
+    'mn'
+    'mn'
+    'ft'
+}
+
+header {
+    grid-area: hd;
+    background-color: silver;
+    text-align: center;
+}
+
+main {
+    grid-area: mn;
+    background-color: lightgray;
+    text-align: center;
+}
+
+footer {
+    grid-area: ft;
+    background-color: silver;
+    text-align: center;
+}
+
+#header {
+    margin: auto;
+}
