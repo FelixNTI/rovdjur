@@ -1,33 +1,19 @@
 /* Denna fil skall innehålla din CSS kod */
 
 #container {
+    width: 100vw;
     display: grid;
     grid-template-areas:
-    'hd'
     'mn'
     'mn'
     'ft'
 }
 
-@media only screen and (max-width: 1080px){
-  #container  {
-      display: grid;
-      grid-template-areas:
-      'hd'
-      'mn'
-      'mn'
-      'ft'
 
-    }
+img {
+    width: 100%;
+    
 }
-
-header {
-    grid-area: hd;
-    background-color: silver;
-    text-align: center;
-}
-
-
 
 main {
     grid-area: mn;
