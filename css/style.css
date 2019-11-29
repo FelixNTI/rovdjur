@@ -1,14 +1,25 @@
 /* Denna fil skall innehålla din CSS kod */
 
 #container {
-    width: 100vw;
+    width: 375px;
+    height: 812px;
     display: grid;
+    grid-column: 3;
+    grid-row: 8;
     grid-template-areas:
-    'mn'
+    'nav'
+    'hd'
     'mn'
     'ft'
 }
 
+body {
+    background-image: url("../img/dal.jpg");
+}
+
+header {
+    grid-area: hd;
+}
 
 img {
     width: 100%;
@@ -27,6 +38,8 @@ footer {
     text-align: center;
 }
 
-#header {
-    margin: auto;
+nav {
+    grid-area: nav;
+    background-color: blue;
+    text-align: center;
 }
