@@ -2,10 +2,10 @@
 
 #container {
     width: 375px;
-    height: 812px;
+    height: 2000px;
     display: grid;
     grid-column: 3;
-    grid-row: 8;
+    grid-auto-rows: repeat 1fr;
     grid-template-areas:
     'nav'
     'hd'
@@ -19,6 +19,8 @@ body {
 
 header {
     grid-area: hd;
+    background-color: darkgray;
+    text-align: center;
 }
 
 img {
@@ -28,18 +30,21 @@ img {
 
 main {
     grid-area: mn;
-    background-color: lightgray;
+    background-color: #F5F0E9;
     text-align: center;
 }
 
 footer {
     grid-area: ft;
-    background-color: silver;
+    background-color: #A8A5A0;
     text-align: center;
 }
 
 nav {
     grid-area: nav;
-    background-color: blue;
-    text-align: center;
+    grid-row: 1fr;
+}
+
+.grid {
+    align-items: stretch;
 }
