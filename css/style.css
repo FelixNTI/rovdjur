@@ -1,50 +1,140 @@
 /* Denna fil skall innehålla din CSS kod */
 
 #container {
-    width: 375px;
-    height: 2000px;
     display: grid;
-    grid-column: 3;
-    grid-auto-rows: repeat 1fr;
-    grid-template-areas:
-    'nav'
-    'hd'
-    'mn'
-    'ft'
+    width: 1080px;
+    height: 100vh;
 }
 
-body {
-    background-image: url("../img/dal.jpg");
+.boxxxx{
+    padding: 10px;
+    width: 1080px;
+    height: 100px;
+    background-color: lightgray;
+    position: relative;
 }
 
-header {
-    grid-area: hd;
-    background-color: darkgray;
+.boxxxxx{
+    padding: 10px;
+    width: 1080px;
+    height: 300px;
+    position: relative;
+}
+
+#bild4 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#arrow {
+    padding: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.head {
+    width: 1080px;
+    height:100px;
     text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 20px;
 }
 
-img {
-    width: 100%;
-    
+.box {
+    padding: 10px;
+    width: 1080px;
+    height: 700px;
+    position: relative;
+}
+.boxx {
+    padding: 10px;
+    width: 1080px;
+    height: 700px;
+    position: relative;
+}
+.boxxx {
+    padding: 10px;
+    width: 1080px;
+    height: 700px;
+    position: relative;
 }
 
-main {
-    grid-area: mn;
-    background-color: #F5F0E9;
+.box1 {
+    padding: 10px;
+    width: 1080px;
+    height: 1500px;
+    background-color: lightgray;
+    position: relative;
+}
+
+.lk {
+    width: 200px;
+    height:100px;
+    background-color: lightgray;
     text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 20px;
 }
 
-footer {
-    grid-area: ft;
-    background-color: #A8A5A0;
+.ko {
+    width: 200px;
+    height:100px;
+    background-color: lightgray;
     text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 20px;
 }
 
-nav {
-    grid-area: nav;
-    grid-row: 1fr;
+.bn {
+    width: 200px;
+    height:100px;
+    background-color: lightgray;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    font-size: 20px;
 }
 
-.grid {
-    align-items: stretch;
+#bild {
+    width: 1080px;
+    height: 700px;
+}
+
+#bild2 {
+    width: 1080px;
+    height: 700px;
+}
+
+#bild3 {
+    width: 1080px;
+    height: 700px;
+}
+
+#text {
+    font-size: 30px;
 }
